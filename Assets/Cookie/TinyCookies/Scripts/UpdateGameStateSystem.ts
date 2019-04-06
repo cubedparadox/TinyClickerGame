@@ -88,7 +88,7 @@ namespace game {
             gameState.storeCounts = storeCounts;
             
             gameState.cookies -= buildingPrice;
-            gameState.cps += gameState.storeCounts[id] * gameState.storeCps[id];
+            gameState.cps += purchaseCount * gameState.storeCps[id];
             let cookeCpsLabel = this.world.getComponentData(gameState.cookieCpsLabel, ut.Text.Text2DRenderer);
             cookeCpsLabel.text = "per second: " + game.UpdateGameStateSystem.FormatNumber(gameState.cps, false);
             this.world.setComponentData(gameState.cookieCpsLabel, cookeCpsLabel);

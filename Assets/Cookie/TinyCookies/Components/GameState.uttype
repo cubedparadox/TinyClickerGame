@@ -1,0 +1,194 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "7a750781415d40cd96c3ece4765395b0",
+    "Name": "GameState",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "b49d7fc0b8294c7c8bd3114793387954",
+        "Name": "cookieButton",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "3e5a8815c1ad4c278112164fe514b02e",
+        "Name": "cookieCountLabel",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "ac74cd55a4214e6d8f6060b5b8fda30d",
+        "Name": "cookieCpsLabel",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b2147f93b1644cbfa7f38a42be66f6c1",
+        "Name": "storeCountLabels",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "6ea9b210fa15440fbf25a2a06f0a8827",
+        "Name": "storePriceLabels",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "06c8923a712e46629e85506e2cc33099",
+        "Name": "storeButtons",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "866a26289f8d42e998148809cfd4582f",
+        "Name": "cursorObjects",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "2889847c558c436abc71c0e23755e5e5",
+        "Name": "storePrices",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "436a2df1af264c14b32c1b3f01c714be",
+        "Name": "storeCps",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "242fb7ee24d54716a834ed08d7c852b8",
+        "Name": "cookies",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4c1f16adaef24ff99fed3129acc83723",
+        "Name": "cps",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "cb915ac7d5f543b5a18e513d9cf46d49",
+        "Name": "storeCounts",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": true,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "fa0a14211a914f4a90fa71e6e0e13a81",
+        "Name": "purchaseMultiplier",
+        "FieldType": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "5a275d44012b47ccb0296c5976cb8136",
+        "Name": "purchaseModeIsBuying",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "13bd57fc032b43f6af50b3f3462f2cb6",
+        "Name": "isInitialized",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "a27d6df5db8e4c0f894475864f8ab74e",
+        "Name": "BuyToggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "47e1cfd1d3374170b6b485aaf1cce85c",
+        "Name": "SellToggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9d2a7b697a14402eb9bc2e720f2dd48c",
+        "Name": "Purchase1Toggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "4f6d6e68a1ed4c7cb3ba265d66676adb",
+        "Name": "Purchase10Toggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "9e3c09f903b942b79ebcf28b44a6d594",
+        "Name": "Purchase100Toggle",
+        "FieldType": { "Id": "5a182d9d039d4dfd8fa96132d05f9ee7", "Name": "EntityReference" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8a29c0947af44654aef3905a1ece12a2",
+        "Name": "timer",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 1,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "7a750781415d40cd96c3ece4765395b0", "Name": "GameState" },
+        "Properties": {
+            "storePrices": {
+                "Type": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" }
+            },
+            "storeCps": {
+                "Type": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" }
+            },
+            "storeCounts": {
+                "Type": { "Id": "74cf32c2744342b7903871f8feb2fdd7", "Name": "Float64" }
+            },
+            "purchaseMultiplier": 1,
+            "purchaseModeIsBuying": true
+        }
+    }
+}]
